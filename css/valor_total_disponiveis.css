@@ -1,0 +1,31 @@
+.valor_total {
+    width: 100%;
+    height: 5rem;
+    background-color: #fc6621;
+    margin-top: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.valor_total p {
+    color: #fff;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .valor_total p {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .valor_total {
+        height: 7rem;
+    }
+    .valor_total p {
+        font-size: 2.8rem;
+    }
+}

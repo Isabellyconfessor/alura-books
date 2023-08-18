@@ -1,0 +1,128 @@
+.livros {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.livro {
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box; 
+    margin: 0 auto;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+
+.livro__img {
+    width: 60%;
+    padding-bottom: 0.7rem;
+    margin: 0 auto;
+}
+
+.livro__titulo{
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 1.1rem;
+    color: #fc6621;   
+}
+
+.livro__autor {
+    text-align: center;
+    font-size: 1rem;
+    color: #858585;
+    margin: 1rem 0;
+}
+
+.livro__preco {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #002f52;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+.tag {
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #9c9c9c;
+    padding: 0.3em;
+    background: rgba(197, 197, 197, 0.25);
+    border-radius: 4px;
+    margin-right: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .livro {
+        width: 30%;
+        margin-bottom: 0.5rem;
+    }
+    .livro__img {
+        width: 40%;
+    }
+    .livro__titulo{
+        font-size: 1rem;
+    }
+    .livro__autor {
+        font-size: 0.9rem;
+    }
+    .livro__preco {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .livro {
+        width: 25%;
+        margin-bottom: 0.7rem;
+    }
+    .livro__img {
+        width: 50%;
+    }
+    .livro__titulo{
+        font-size: 1.2rem;
+        width: 85%;
+        margin: 0 auto;
+    }
+    .livro__autor {
+        font-size: 1rem;
+    }
+    .livro__preco {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .livro {
+        width: 25%;
+        margin-bottom: 1rem;
+    }
+    .livro__img {
+        width: 60%;
+    }
+    .livro__titulo{
+        width: 90%;
+        margin: 0 auto;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+    .livro__autor {
+        font-size: 1.4rem;
+    }
+    .livro__preco {
+        font-size: 2rem;
+    }
+    .tag {
+        font-size: 1.2rem;
+    }
+}

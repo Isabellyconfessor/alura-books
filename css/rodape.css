@@ -1,0 +1,44 @@
+.rodape {
+    width: 100%;
+    background: linear-gradient(96.48deg, #002f52 36.3%, #326589 99.56%);
+    text-align: center;
+    height: 5.5rem;
+    margin-top: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape p {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width:768px) {
+    .rodape {
+        height: 6rem;
+    }
+    .rodape p {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .rodape {
+        height: 7rem;
+    }
+    .rodape p {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .rodape {
+        height: 7.5rem;
+    }
+    .rodape p {
+        font-size: 2rem;
+    }
+}
