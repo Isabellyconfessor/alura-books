@@ -10,3 +10,8 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+
+.indisponivel {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
