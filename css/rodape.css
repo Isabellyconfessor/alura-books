@@ -11,7 +11,7 @@
 }
 
 .rodape p {
-    color: #fff;
+    color: var(--branco);
     font-weight: 500;
     font-size: 1.2rem;
 }

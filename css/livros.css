@@ -26,13 +26,13 @@
     font-size: 1.1rem;
     text-align: center;
     line-height: 1.1rem;
-    color: #fc6621;   
+    color: var(--laranja);   
 }
 
 .livro__autor {
     text-align: center;
     font-size: 1rem;
-    color: #858585;
+    color: var(--cor_autor);
     margin: 1rem 0;
 }
 
@@ -40,7 +40,7 @@
     text-align: center;
     font-size: 1.4rem;
     font-weight: 700;
-    color: #002f52;
+    color: var(--cor_preco);
 }
 
 .tags {
@@ -55,7 +55,7 @@
     text-align: left;
     font-size: 0.9rem;
     font-weight: 500;
-    color: #9c9c9c;
+    color: var(--cor_tag);
     padding: 0.3em;
     background: rgba(197, 197, 197, 0.25);
     border-radius: 4px;

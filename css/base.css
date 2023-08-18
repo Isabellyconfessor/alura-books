@@ -1,0 +1,12 @@
+:root {
+    --fundo_botao: #326589;
+    --branco: #fff;
+    --laranja: #fc6621;
+    --cor_autor: #858585;
+    --cor_preco: #002f52;
+    --cor_tag: #9c9c9c;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
